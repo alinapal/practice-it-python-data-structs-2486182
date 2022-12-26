@@ -1,6 +1,7 @@
 import string
 from collections import Counter
 
+
 def count_words(paragraph):
     paragraph = paragraph.lower()
     paragraph = paragraph.translate(str.maketrans('', '', string.punctuation))
